@@ -1,6 +1,6 @@
 {
-  "name": "tombosmans.github.io",
-  "version": "0.0.0",
+  "name": "diurnarius",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
