@@ -1,0 +1,35 @@
+{
+  "name": "tombosmans.github.io",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "posts:build": "ts-node --esm --swc scripts/build-posts.ts",
+    "posts:create": "ts-node --esm --swc  scripts/create-post.ts"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/public-sans": "^4.5.12",
+    "@mui/joy": "^5.0.0-alpha.74",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.6",
+    "react-router-dom": "^6.10.0",
+    "react-syntax-highlighter": "^15.5.0"
+  },
+  "devDependencies": {
+    "@tbosmans/eslint-config": "^1.0.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-syntax-highlighter": "^15.5.6",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "gray-matter": "^4.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  },
+  "prettier": "@tbosmans/eslint-config/prettierrc"
+}
